@@ -1,0 +1,76 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Original
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeitsuisse.team71.expensetracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.Budget"
+            android:label="@string/title_activity_budget" />
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.Expenses"
+            android:label="@string/title_activity_expenses" />
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.Input"
+            android:label="@string/title_activity_input" />
+        <!-- created by root at 2015-10-01 23:01:05 -->
+        <activity android:name="com.codeitsuisse.team71.expensetracker.Graph" />
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.Show_graph"
+            android:label="@string/title_activity_show_graph" >
+        </activity>
+    </application>
+
+</manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity
+            android:name="com.codeitsuisse.team71.expensetracker.Graph"
+            android:label="@string/title_activity_graph" >
+        </activity>
+    </application>
+
+</manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name=".Graph"
+            android:label="@string/title_activity_graph"
+            >
+        </activity>
+    </application>
+
+</manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name=".Graph"
+            android:label="@string/title_activity_graph"
+            >
+        </activity>
+    </application>
+
+</manifest>
+
